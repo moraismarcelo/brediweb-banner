@@ -6,7 +6,7 @@
     "active": 1,
     "order": 0,
     "providers": [
-        "Bredi\\BrediBanner\\Providers\\BrediBannerServiceProvider"
+        "Brediweb\\BrediBanner\\Providers\\BrediBannerServiceProvider"
     ],
     "aliases": {},
     "files": [],

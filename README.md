@@ -16,7 +16,7 @@ se o git exigir, coloque seu login e senha do gitlab para poder baixar o pacote.
 
 3 - na linha de comando: `php artisan migrate`
 
-4 - rode o seeder para criar as transações: `php artisan db:seed --class=Bredi\\BrediBanner\\Database\\Seeders\\BannersTableSeeder`
+4 - rode o seeder para criar as transações: `php artisan db:seed --class=Brediweb\\BrediBanner\\Database\\Seeders\\BannersTableSeeder`
 
 O pacote vem com algumas funções para facilitar
 
@@ -25,7 +25,7 @@ no seu controller:
 
 ```
 //Apenas esta linha já retorna os registros
-$banners = (new \Bredi\BrediBanner\Repository\BannerRepository)->getBannersAtivos();
+$banners = (new \Brediweb\BrediBanner\Repository\BannerRepository)->getBannersAtivos();
 ```
 
 exportando arquivo config do pacote BrediBanner:

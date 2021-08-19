@@ -1,11 +1,11 @@
 <?php
 
-namespace Bredi\BrediBanner\Database\Seeders;
+namespace Brediweb\BrediBanner\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
-use Bredi\BrediDashboard\Models\CategoriaTransacao;
-use Bredi\BrediDashboard\Models\Transacao;
+use Brediweb\BrediDashboard\Models\CategoriaTransacao;
+use Brediweb\BrediDashboard\Models\Transacao;
 
 class BannersTableSeeder extends Seeder
 {
