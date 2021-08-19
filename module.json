@@ -1,0 +1,14 @@
+{
+    "name": "BrediBanner",
+    "alias": "bredibanner",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Bredi\\BrediBanner\\Providers\\BrediBannerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

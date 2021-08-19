@@ -1,0 +1,29 @@
+{
+    "name": "bredi/banner",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rodrigo de Souza",
+            "email": "rd7.rodrigo@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bredi\\BrediBanner\\Providers\\BrediBannerServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bredi\\BrediBanner\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1.3",
+        "brediweb/imagemupload": "dev-master"
+    }
+}
