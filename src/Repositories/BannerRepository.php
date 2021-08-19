@@ -1,14 +1,14 @@
 <?php
-namespace Bredi\BrediBanner\Repository;
+namespace Brediweb\BrediBanner\Repository;
 
 
-use Bredi\BrediDashboard\Repository\BaseRepository;
+use Brediweb\BrediDashboard\Repository\BaseRepository;
 use Illuminate\Support\Facades\Input;
-use \Bredi\BrediBanner\Models\Banner;
+use \Brediweb\BrediBanner\Models\Banner;
 
 class BannerRepository extends BaseRepository
 {
-    protected $modelClass = \Bredi\BrediBanner\Models\Banner::class;
+    protected $modelClass = \Brediweb\BrediBanner\Models\Banner::class;
 
     public function getBannersAtivos($args = [])
     {

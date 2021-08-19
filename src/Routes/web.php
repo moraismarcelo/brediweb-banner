@@ -15,7 +15,7 @@
 //     Route::get('/', 'BrediBannerController@index');
 // });
 
-Route::prefix((!empty(config('bredidashboard.prefix')) ? config('bredidashboard.prefix') : 'controle'))->middleware('auth', Bredi\BrediDashboard\Http\Middleware\ValidaPermissao::class)->as('bredibanner::')->group(
+Route::prefix((!empty(config('bredidashboard.prefix')) ? config('bredidashboard.prefix') : 'controle'))->middleware('auth', Brediweb\BrediDashboard\Http\Middleware\ValidaPermissao::class)->as('bredibanner::')->group(
 function () {
     Route::get('banners', ['uses' => 'BrediBannerController@index', 'permissao' => 'controle.banner.index'])->name('controle.banner.index');
     Route::get('banner/create', ['uses' => 'BrediBannerController@create', 'permissao' => 'controle.banner.create'])->name('controle.banner.create');

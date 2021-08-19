@@ -1,12 +1,12 @@
 <?php
 
-namespace Bredi\BrediBanner\Http\Controllers;
+namespace Brediweb\BrediBanner\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Bredi\BrediBanner\Models\Banner;
-use Rd7\ImagemUpload\ImagemUpload;
+use Brediweb\BrediBanner\Models\Banner;
+use Brediweb\ImagemUpload\ImagemUpload;
 
 class BrediBannerController extends Controller
 {
@@ -157,7 +157,7 @@ class BrediBannerController extends Controller
     public function listarBanner()
     {
         try {
-            $banners = (new \Bredi\BrediBanner\Repository\BannerRepository)->getBannersAtivos();
+            $banners = (new \Brediweb\BrediBanner\Repository\BannerRepository)->getBannersAtivos();
 
             return $banners;
 

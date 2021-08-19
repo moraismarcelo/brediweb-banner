@@ -1,16 +1,16 @@
 {
-    "name": "bredi/banner",
+    "name": "brediweb/banner",
     "description": "",
     "authors": [
         {
-            "name": "Rodrigo de Souza",
-            "email": "rd7.rodrigo@gmail.com"
+            "name": "Admin",
+            "email": "contato@bredi.com.br"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "Bredi\\BrediBanner\\Providers\\BrediBannerServiceProvider"
+                "BrediWeb\\BrediBanner\\Providers\\BrediBannerServiceProvider"
             ],
             "aliases": {
 
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bredi\\BrediBanner\\": "src/"
+            "Brediweb\\BrediBanner\\": "src/"
         }
     },
     "require": {

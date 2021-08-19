@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediBanner\Providers;
+namespace Brediweb\BrediBanner\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
