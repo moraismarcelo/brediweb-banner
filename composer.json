@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\BrediWeb\\BrediBanner\\Providers\\BrediBannerServiceProvider"
+                "BrediWeb\\BrediBanner\\Providers\\BrediBannerServiceProvider"
             ],
             "aliases": {
 
