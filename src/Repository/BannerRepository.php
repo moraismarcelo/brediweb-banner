@@ -2,7 +2,7 @@
 namespace Brediweb\BrediBanner\Repository;
 
 
-use Brediweb\BrediDashboard\Repository\BaseRepository;
+use Brediweb\BrediDashboard\Repositories\BaseRepository;
 use Illuminate\Support\Facades\Input;
 use \Brediweb\BrediBanner\Models\Banner;
 
